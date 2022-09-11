@@ -5,4 +5,4 @@ from nalog_python import NalogRuPython
 # decoder_QR = NalogRuPython()        # Need authorisation with phone
 
 if __name__ == "__main__":
-    app.run(use_reloader=False)
+    app.run(host='0.0.0.0', port=6480, use_reloader=False)
