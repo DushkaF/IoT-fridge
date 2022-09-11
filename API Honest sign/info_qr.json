@@ -1,0 +1,90 @@
+{
+    "status": 2,
+    "statusReal": 2,
+    "id": "631d158d22893e20bfc1fb82",
+    "kind": "kkt",
+    "createdAt": "2022-09-11T01:54:05+03:00",
+    "statusDescription": {},
+    "qr": "t=20220910T2051&s=64.99&fn=9960440302359187&i=15349&fp=2377967000&n=1",
+    "operation": {
+        "date": "2022-09-10T20:51",
+        "type": 1,
+        "sum": 6499
+    },
+    "process": [
+        {
+            "time": "2022-09-10T22:54:05+00:00",
+            "result": 21
+        },
+        {
+            "time": "2022-09-10T22:54:06+00:00",
+            "result": 2
+        }
+    ],
+    "query": {
+        "operationType": 1,
+        "sum": 6499,
+        "documentId": 15349,
+        "fsId": "9960440302359187",
+        "fiscalSign": "2377967000",
+        "date": "2022-09-10T20:51"
+    },
+    "ticket": {
+        "document": {
+            "receipt": {
+                "dateTime": 1662832260,
+                "cashTotalSum": 0,
+                "code": 3,
+                "creditSum": 0,
+                "ecashTotalSum": 6499,
+                "fiscalDocumentFormatVer": 4,
+                "fiscalDocumentNumber": 15349,
+                "fiscalDriveNumber": "9960440302359187",
+                "fiscalSign": 2377967000,
+                "fnsUrl": "www.nalog.gov.ru",
+                "items": [
+                    {
+                        "name": "48 КОПЕЕК Мороженое манго со сливк стака",
+                        "nds": 2,
+                        "paymentType": 4,
+                        "price": 6499,
+                        "productType": 33,
+                        "productCodeData": {
+                            "gtin": 4620021193701,
+                            "rawProductCode": "0104620021193701215aQAB!",
+                            "productIdType": 6,
+                            "sernum": "5aQAB!"
+                        },
+                        "quantity": 1,
+                        "sum": 6499
+                    }
+                ],
+                "kktRegId": "0000981984034633    ",
+                "nds10": 591,
+                "operationType": 1,
+                "operator": "Продавец Калинина",
+                "prepaidSum": 0,
+                "provisionSum": 0,
+                "requestNumber": 287,
+                "retailPlace": "Магазин  Магнит  Бактериолог",
+                "retailPlaceAddress": "195220, Санкт-Петербург г, Верности ул, дом № 9, литера А, помещение 1Н",
+                "shiftNumber": 48,
+                "taxationType": 1,
+                "appliedTaxationType": 1,
+                "totalSum": 6499,
+                "user": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТАНДЕР\"",
+                "userInn": "2310031475  "
+            }
+        }
+    },
+    "organization": {
+        "name": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТАНДЕР\"",
+        "inn": "2310031475",
+        "logo": "/static/logo/23/2310031475.png"
+    },
+    "seller": {
+        "name": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТАНДЕР\"",
+        "inn": "2310031475",
+        "logo": "/static/logo/23/2310031475.png"
+    }
+}

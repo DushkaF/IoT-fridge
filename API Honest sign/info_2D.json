@@ -1,0 +1,511 @@
+{
+  "id": 133869567,
+  "codeFounded": true,
+  "checkResult": true,
+  "code": "0104600742014721215cdiNs\x1d93HKbs",
+  "checkDate": 1662557749439,
+  "category": "milk",
+  "productName": "Сметана с массовой долей жира 15,0%",
+  "status": "expired_sold",
+  "warning": "ok",
+  "isPerishable": false,
+  "expiration": -135349439,
+  "catalogData": [
+    {
+      "good_id": 116132808,
+      "identified_by": [
+        {
+          "value": "4600742014721",
+          "type": "gtin",
+          "multiplier": 1,
+          "level": "trade-unit"
+        },
+        {
+          "value": "4600742014738",
+          "type": "gtin",
+          "multiplier": 8,
+          "level": "inner-pack"
+        }
+      ],
+      "good_name": "Сметана с массовой долей жира 15,0%",
+      "is_kit": false,
+      "is_set": false,
+      "set_gtins": [],
+      "good_url": "https://национальный-каталог.рф/product/4600742014721-ru-smetana-s-massovoy-doley-zhira-150",
+      "good_img": "https://национальный-каталог.рф/s3/med/3a0df54f761bd0eaf26cdb5252938b6c.jpg",
+      "good_status": "published",
+      "update_date": "2022-03-10 16:08:52",
+      "producer_inn": "3509010494",
+      "producer_name": "Открытое акционерное общество "Северное Молоко"",
+      "categories": [
+        {
+          "cat_id": 230988,
+          "cat_name": "Молочная продукция"
+        },
+        {
+          "cat_id": 234287,
+          "cat_name": "0403 Пахта, свернувшиеся молоко и сливки, йогурт, кефир и прочие ферментированные или сквашенные молоко и сливки, сгущенные или несгущенные, с добавлением или без добавления сахара или других подслащивающих веществ, со вкусо-ароматическими добавками или б"
+        }
+      ],
+      "brand_id": 934281,
+      "brand_name": "Резной Палисад",
+      "good_images": [
+        {
+          "photo_type": "default",
+          "photo_date": "2022-01-24T19:11:38+03:00",
+          "photo_url": "https://национальный-каталог.рф/s3/med/3a0df54f761bd0eaf26cdb5252938b6c.jpg",
+          "barcode": "4600742014721"
+        }
+      ],
+      "good_attrs": [
+        {
+          "attr_id": 2478,
+          "attr_name": "Полное наименование товара",
+          "attr_value": "Сметана с массовой долей жира 15,0%",
+          "attr_value_type": "",
+          "attr_group_id": 24,
+          "attr_group_name": "Идентификация товара",
+          "value_id": 967118589,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 4424,
+          "attr_name": "Наименование упаковки товара",
+          "attr_value": "Сметана с массовой долей жира 15,0% 8X",
+          "attr_value_type": "",
+          "attr_group_id": 24,
+          "attr_group_name": "Идентификация товара",
+          "value_id": 967118595,
+          "published_date": "2022-01-24T19:11:38+03:00",
+          "gtin": "4600742014738",
+          "multiplier": "8.00",
+          "level": "inner-pack"
+        },
+        {
+          "attr_id": 3793,
+          "attr_name": "Базовая единица измерения",
+          "attr_value": "ШТ",
+          "attr_value_type": "",
+          "attr_group_id": 24,
+          "attr_group_name": "Идентификация товара",
+          "value_id": 967118601,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 15448,
+          "attr_name": "Заявленный объём / вес нетто",
+          "attr_value": "400",
+          "attr_value_type": "г",
+          "attr_group_id": 24,
+          "attr_group_name": "Идентификация товара",
+          "value_id": 967118607,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 2630,
+          "attr_name": "Страна производства",
+          "attr_value": "Россия",
+          "attr_value_type": "",
+          "attr_group_id": 24,
+          "attr_group_name": "Идентификация товара",
+          "value_id": 967118613,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 2504,
+          "attr_name": "Товарный знак",
+          "attr_value": "Резной Палисад",
+          "attr_value_id": 934281,
+          "value_id": 967118619,
+          "attr_value_type": "",
+          "attr_group_id": 24,
+          "attr_group_name": "Идентификация товара",
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 2710,
+          "attr_name": "Тип упаковки",
+          "attr_value": "СТАКАН",
+          "attr_value_type": "",
+          "attr_group_id": 14,
+          "attr_group_name": "Тип и материал упаковки",
+          "value_id": 967118622,
+          "published_date": "2022-01-24T19:11:38+03:00",
+          "gtin": "4600742014721",
+          "multiplier": "1.00",
+          "level": "trade-unit"
+        },
+        {
+          "attr_id": 2710,
+          "attr_name": "Тип упаковки",
+          "attr_value": "ГОФРОКОРОБ",
+          "attr_value_type": "",
+          "attr_group_id": 14,
+          "attr_group_name": "Тип и материал упаковки",
+          "value_id": 967118625,
+          "published_date": "2022-01-24T19:11:38+03:00",
+          "gtin": "4600742014738",
+          "multiplier": "8.00",
+          "level": "inner-pack"
+        },
+        {
+          "attr_id": 2713,
+          "attr_name": "Материал упаковки",
+          "attr_value": "ПОЛИМЕР",
+          "attr_value_type": "",
+          "attr_group_id": 14,
+          "attr_group_name": "Тип и материал упаковки",
+          "value_id": 967118628,
+          "published_date": "2022-01-24T19:11:38+03:00",
+          "gtin": "4600742014721",
+          "multiplier": "1.00",
+          "level": "trade-unit"
+        },
+        {
+          "attr_id": 2713,
+          "attr_name": "Материал упаковки",
+          "attr_value": "КАРТОН",
+          "attr_value_type": "",
+          "attr_group_id": 14,
+          "attr_group_name": "Тип и материал упаковки",
+          "value_id": 967118631,
+          "published_date": "2022-01-24T19:11:38+03:00",
+          "gtin": "4600742014738",
+          "multiplier": "8.00",
+          "level": "inner-pack"
+        },
+        {
+          "attr_id": 15281,
+          "attr_name": "Тип продукта",
+          "attr_value": "СМЕТАНА",
+          "attr_value_type": "",
+          "attr_group_id": 103,
+          "attr_group_name": "Потребительские свойства",
+          "value_id": 967118634,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 13,
+          "attr_name": "Происхождение сырья",
+          "attr_value": "КОРОВА",
+          "attr_value_type": "",
+          "attr_group_id": 103,
+          "attr_group_name": "Потребительские свойства",
+          "value_id": 967118637,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 14,
+          "attr_name": "Жирность, %",
+          "attr_value": "15%",
+          "attr_value_type": "",
+          "attr_group_id": 103,
+          "attr_group_name": "Потребительские свойства",
+          "value_id": 967118640,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 15305,
+          "attr_name": "Продукция для детского питания",
+          "attr_value": "НЕТ",
+          "attr_value_type": "",
+          "attr_group_id": 103,
+          "attr_group_name": "Потребительские свойства",
+          "value_id": 967118643,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 15897,
+          "attr_name": "Специализированная пищевая продукция",
+          "attr_value": "НЕТ",
+          "attr_value_type": "",
+          "attr_group_id": 103,
+          "attr_group_name": "Потребительские свойства",
+          "value_id": 967118646,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 2483,
+          "attr_name": "Состав",
+          "attr_value": "Сливки, закваска",
+          "attr_value_type": "",
+          "attr_group_id": 26,
+          "attr_group_name": "Состав",
+          "value_id": 967118649,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 21500,
+          "attr_name": "Срок хранения до 40 суток (включительно)",
+          "attr_value": "ДА",
+          "attr_value_type": "",
+          "attr_group_id": 7,
+          "attr_group_name": "Эксплуатация и условия хранения",
+          "value_id": 967118652,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 3959,
+          "attr_name": "Группа ТНВЭД",
+          "attr_value": "0403",
+          "attr_value_type": "",
+          "attr_group_id": 22,
+          "attr_group_name": "Нормативно-сопроводительная документация",
+          "value_id": 967118655,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 13933,
+          "attr_name": "Код ТНВЭД",
+          "attr_value": "0403906900",
+          "attr_value_type": "",
+          "attr_group_id": 22,
+          "attr_group_name": "Нормативно-сопроводительная документация",
+          "value_id": 967118658,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 4404,
+          "attr_name": "ГОСТ / ТУ / СТО / Спецификация",
+          "attr_value": "ГОСТ 31452-2012",
+          "attr_value_type": "ГОСТ",
+          "attr_group_id": 22,
+          "attr_group_name": "Нормативно-сопроводительная документация",
+          "value_id": 967118661,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 13836,
+          "attr_name": "Номер Регламента/стандарта",
+          "attr_value": "ТР ТС 033/2013 "О безопасности молока и молочной продукции"",
+          "attr_value_type": "",
+          "attr_group_id": 22,
+          "attr_group_name": "Нормативно-сопроводительная документация",
+          "value_id": 967118664,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 13836,
+          "attr_name": "Номер Регламента/стандарта",
+          "attr_value": "ТР ТС 021/2011 "О безопасности пищевой продукции"",
+          "attr_value_type": "",
+          "attr_group_id": 22,
+          "attr_group_name": "Нормативно-сопроводительная документация",
+          "value_id": 967118667,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 13836,
+          "attr_name": "Номер Регламента/стандарта",
+          "attr_value": "ТР ТС 022/2011 "Пищевая продукция в части ее маркировки"",
+          "attr_value_type": "",
+          "attr_group_id": 22,
+          "attr_group_name": "Нормативно-сопроводительная документация",
+          "value_id": 967118670,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 15653,
+          "attr_name": "Подлежит ветеринарному контролю (надзору)",
+          "attr_value": "ДА",
+          "attr_value_type": "",
+          "attr_group_id": 1024,
+          "attr_group_name": "Данные для ФГИС ВетИС",
+          "value_id": 967118673,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 15952,
+          "attr_name": "Тип продукции",
+          "attr_value": "Пищевые продукты",
+          "attr_value_type": "",
+          "attr_group_id": 1024,
+          "attr_group_name": "Данные для ФГИС ВетИС",
+          "value_id": 967118676,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 15955,
+          "attr_name": "Продукция",
+          "attr_value": "Молоко и молочная продукция",
+          "attr_value_type": "",
+          "attr_group_id": 1024,
+          "attr_group_name": "Данные для ФГИС ВетИС",
+          "value_id": 967118679,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 15958,
+          "attr_name": "Вид продукции",
+          "attr_value": "сметана, полученная из молока, подвергнутого пастеризации",
+          "attr_value_type": "",
+          "attr_group_id": 1024,
+          "attr_group_name": "Данные для ФГИС ВетИС",
+          "value_id": 967118682,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 15961,
+          "attr_name": "Категория продукции",
+          "attr_value": "Готовая продукция",
+          "attr_value_type": "",
+          "attr_group_id": 1024,
+          "attr_group_name": "Данные для ФГИС ВетИС",
+          "value_id": 967118685,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 15973,
+          "attr_name": "ГОСТ",
+          "attr_value": "ГОСТ 31452-2012",
+          "attr_value_type": "ГОСТ",
+          "attr_group_id": 1024,
+          "attr_group_name": "Данные для ФГИС ВетИС",
+          "value_id": 967118688,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 15964,
+          "attr_name": "ХС-производитель",
+          "attr_value": "5a66e406-0b48-459e-9f2d-153f0277a6d0",
+          "attr_value_type": "",
+          "attr_group_id": 84,
+          "attr_group_name": "ФГИС ВетИС",
+          "value_id": 967118691,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 15967,
+          "attr_name": "Предприятие-производитель",
+          "attr_value": "1055578a-2c3f-4087-ba05-0478de360034",
+          "attr_value_type": "",
+          "attr_group_id": 84,
+          "attr_group_name": "ФГИС ВетИС",
+          "value_id": 967118694,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 15976,
+          "attr_name": "Массовая доля жира, %",
+          "attr_value": "15",
+          "attr_value_type": "Точное значение",
+          "attr_group_id": 84,
+          "attr_group_name": "ФГИС ВетИС",
+          "value_id": 967118697,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 15894,
+          "attr_name": "Владелец торговой марки",
+          "attr_value": "5a66e406-0b48-459e-9f2d-153f0277a6d0",
+          "attr_value_type": "",
+          "attr_group_id": 84,
+          "attr_group_name": "ФГИС ВетИС",
+          "value_id": 967118700,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 5821,
+          "attr_name": "Идентификатор товара в ФГИС ВетИС (GUID ProductItem)",
+          "attr_value": "7c938193-f0fe-4611-afea-f70ac4eebbd8",
+          "attr_value_type": "",
+          "attr_group_id": 84,
+          "attr_group_name": "ФГИС ВетИС",
+          "value_id": 967118703,
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 2503,
+          "attr_name": "Производитель",
+          "attr_value": "ОАО «Северное Молоко», 162000, Россия, Вологодская область, Грязовецкий район, г. Грязовец, ул. Соколовская, д. 59",
+          "attr_value_id": "",
+          "value_id": 967118706,
+          "attr_value_type": "",
+          "attr_group_id": 25,
+          "attr_group_name": "Идентификация Участников Оборота Товаров",
+          "published_date": "2022-01-24T19:11:38+03:00"
+        },
+        {
+          "attr_id": 13763,
+          "attr_name": "Идентификатор вложения в упаковку (GTIN)",
+          "attr_value": "4600742014721",
+          "attr_value_type": "",
+          "attr_group_id": 81,
+          "attr_group_name": "Содержимое упаковки",
+          "value_id": 967118709,
+          "published_date": "2022-01-24T19:11:38+03:00",
+          "gtin": "4600742014738",
+          "multiplier": "8.00",
+          "level": "inner-pack"
+        },
+        {
+          "attr_id": 22269,
+          "attr_name": "Товар с переменным количеством",
+          "attr_value": "НЕТ",
+          "attr_value_type": "",
+          "attr_group_id": 24,
+          "attr_group_name": "Идентификация товара",
+          "value_id": 1038380271,
+          "published_date": "2022-03-10T16:08:52+03:00"
+        }
+      ],
+      "good_reviews": [],
+      "good_reviews_count": 0,
+      "good_prices": [],
+      "is_tech_gtin": false
+    }
+  ],
+  "milkData": {
+    "codeData": {
+      "cis": "0104600742014721215cdiNs",
+      "gtin": "04600742014721",
+      "sgtin": "5cdiNs"
+    },
+    "tnvd": "0403906900",
+    "productName": "Сметана с массовой долей жира 15,0%",
+    "producerName": "ОАО "Северное Молоко"",
+    "producedDate": 1660780800000,
+    "introducedDate": 1660775390000,
+    "applicationDate": 1660775051000,
+    "name": "Сметана с массовой долей жира 15,0%",
+    "brand": "Резной Палисад",
+    "certDoc": {
+      "certDocType": "CONFORMITY_CERTIFICATE",
+      "number": "ЕАЭС N RU Д-RU.РА01.В.65703/21",
+      "date": 1620864000000
+    },
+    "certDocList": [
+      {
+        "certDocType": "CONFORMITY_CERTIFICATE",
+        "number": "ЕАЭС N RU Д-RU.РА01.В.65703/21",
+        "date": 1620864000000
+      }
+    ],
+    "status": "RETIRED",
+    "country": "643",
+    "productProperty": {
+      "emissionType": "LOCAL",
+      "packType": "UNIT",
+      "fat": "15%",
+      "volumeWeight": "400 г",
+      "producerInn": "3509010494"
+    },
+    "prVetDocumentLink": "https://mercury.vetrf.ru/pub/operatorui?_action=findVetDocumentFormByUuid&uuid=e1f7340a-ea99-445e-bcc9-bef2c27ab7c2",
+    "cisInfo": {
+      "withdrawReason": "RETAIL",
+      "receiptDate": 1661990400000
+    },
+    "isRb": false,
+    "expireDate": 1662336000000,
+    "expirationDate": "2022-09-05T00:00:00.000Z",
+    "isPerishable": false,
+    "expiration": -135349439
+  },
+  "expirations": [
+    {
+      "gtin": "04600742014721",
+      "showDetails": false,
+      "statusText": "Срок годности истёк сутки назад"
+    }
+  ]
+}

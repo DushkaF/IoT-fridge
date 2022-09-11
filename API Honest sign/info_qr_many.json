@@ -1,0 +1,256 @@
+{
+    "status": 2,
+    "statusReal": 21,
+    "id": "631db0b21664b62610bc5314",
+    "kind": "kkt",
+    "createdAt": "2022-09-11T12:56:02+03:00",
+    "statusDescription": {},
+    "qr": "t=20220625T1759&s=1609.72&fn=9280440300990649&i=162861&fp=1602096361&n=1",
+    "operation": {
+        "date": "2022-06-25T17:59",
+        "type": 1,
+        "sum": 160972
+    },
+    "process": [
+        {
+            "time": "2022-09-11T09:56:02+00:00",
+            "result": 21
+        }
+    ],
+    "query": {
+        "operationType": 1,
+        "sum": 160972,
+        "documentId": 162861,
+        "fsId": "9280440300990649",
+        "fiscalSign": "1602096361",
+        "date": "2022-06-25T17:59"
+    },
+    "ticket": {
+        "document": {
+            "receipt": {
+                "dateTime": 1656169140,
+                "cashTotalSum": 0,
+                "code": 3,
+                "creditSum": 0,
+                "ecashTotalSum": 160972,
+                "fiscalDocumentFormatVer": 2,
+                "fiscalDocumentNumber": 162861,
+                "fiscalDriveNumber": "9280440300990649",
+                "fiscalSign": 1602096361,
+                "fnsUrl": "nalog.ru",
+                "items": [
+                    {
+                        "name": "Картофель эконом (фиолетовая сетка) 1кг",
+                        "nds": 2,
+                        "ndsSum": 600,
+                        "paymentType": 4,
+                        "price": 2499,
+                        "quantity": 2.642,
+                        "sum": 6602
+                    },
+                    {
+                        "name": "Сахарный песок 1кг",
+                        "nds": 2,
+                        "ndsSum": 1636,
+                        "paymentType": 4,
+                        "price": 5999,
+                        "quantity": 3,
+                        "sum": 17997
+                    },
+                    {
+                        "name": "Батончик \"Я в шоколаде\" с арахисом 40г, Конти",
+                        "nds": 1,
+                        "ndsSum": 666,
+                        "paymentType": 4,
+                        "price": 1999,
+                        "quantity": 2,
+                        "sum": 3998
+                    },
+                    {
+                        "name": "Батончик \"Гигабайт\" с арахисом/карамелью/нугой 40г",
+                        "nds": 1,
+                        "ndsSum": 666,
+                        "paymentType": 4,
+                        "price": 1999,
+                        "quantity": 2,
+                        "sum": 3998
+                    },
+                    {
+                        "name": "Хлеб \"Пшеничный\" формовой 450г, Питер-Хлеб",
+                        "nds": 2,
+                        "ndsSum": 364,
+                        "paymentType": 4,
+                        "price": 3999,
+                        "quantity": 1,
+                        "sum": 3999
+                    },
+                    {
+                        "name": "Сыр \"Сваля\" Тильзитер 45% 180г БЗМЖ",
+                        "nds": 2,
+                        "ndsSum": 1273,
+                        "paymentType": 4,
+                        "price": 13999,
+                        "quantity": 1,
+                        "sum": 13999
+                    },
+                    {
+                        "name": "Шоколад \"Бэбифокс\" молочный с молочной начинкой 45г, КДВ",
+                        "nds": 1,
+                        "ndsSum": 500,
+                        "paymentType": 4,
+                        "price": 2999,
+                        "quantity": 1,
+                        "sum": 2999
+                    },
+                    {
+                        "name": "Молоко \"Молочный Гостинец\" у/паст 2,5% пэт 930мл БЗМЖ",
+                        "nds": 2,
+                        "ndsSum": 518,
+                        "paymentType": 4,
+                        "price": 5699,
+                        "quantity": 1,
+                        "sum": 5699
+                    },
+                    {
+                        "name": "Батон \"Классический\" 1с нарез. 300г, Аладушкин",
+                        "nds": 2,
+                        "ndsSum": 354,
+                        "paymentType": 4,
+                        "price": 1299,
+                        "quantity": 3,
+                        "sum": 3897
+                    },
+                    {
+                        "name": "Сдоба \"Венская\" с яблоком/корицей 200г, Аладушкин",
+                        "nds": 2,
+                        "ndsSum": 727,
+                        "paymentType": 4,
+                        "price": 3999,
+                        "quantity": 2,
+                        "sum": 7998
+                    },
+                    {
+                        "name": "Сдоба \"Венская\" с маком 200г, Аладушкин",
+                        "nds": 2,
+                        "ndsSum": 727,
+                        "paymentType": 4,
+                        "price": 3999,
+                        "quantity": 2,
+                        "sum": 7998
+                    },
+                    {
+                        "name": "Яйцо С0 1дес",
+                        "nds": 2,
+                        "ndsSum": 545,
+                        "paymentType": 4,
+                        "price": 5999,
+                        "quantity": 1,
+                        "sum": 5999
+                    },
+                    {
+                        "name": "Сдоба \"Венская\" с творожной начинкой 180г, Аладушкин",
+                        "nds": 2,
+                        "ndsSum": 364,
+                        "paymentType": 4,
+                        "price": 3999,
+                        "quantity": 1,
+                        "sum": 3999
+                    },
+                    {
+                        "name": "Сдоба \"Венская\" с лимоном 200г, Аладушкин",
+                        "nds": 2,
+                        "ndsSum": 364,
+                        "paymentType": 4,
+                        "price": 3999,
+                        "quantity": 1,
+                        "sum": 3999
+                    },
+                    {
+                        "name": "Масло слив. \"Солнечная долина\" Традиционное 82,5% 200г БЗМЖ",
+                        "nds": 2,
+                        "ndsSum": 545,
+                        "paymentType": 4,
+                        "price": 5999,
+                        "quantity": 1,
+                        "sum": 5999
+                    },
+                    {
+                        "name": "Сыр \"Данке\" Герцог с пажитником 45% 180г БЗМЖ",
+                        "nds": 2,
+                        "ndsSum": 1000,
+                        "paymentType": 4,
+                        "price": 10999,
+                        "quantity": 1,
+                        "sum": 10999
+                    },
+                    {
+                        "name": "Кекс \"Ягодное лукошко\" с черникой и ежевикой 140г, Хлебный дом",
+                        "nds": 1,
+                        "ndsSum": 2666,
+                        "paymentType": 4,
+                        "price": 7999,
+                        "quantity": 2,
+                        "sum": 15998
+                    },
+                    {
+                        "name": "Кекс \"Ягодное лукошко\" с клубникой 140г, Хлебный дом",
+                        "nds": 1,
+                        "ndsSum": 2666,
+                        "paymentType": 4,
+                        "price": 7999,
+                        "quantity": 2,
+                        "sum": 15998
+                    },
+                    {
+                        "name": "Молоко \"Молочный Гостинец\" у/паст 3,6% пэт 930мл БЗМЖ",
+                        "nds": 2,
+                        "ndsSum": 618,
+                        "paymentType": 4,
+                        "price": 6799,
+                        "quantity": 1,
+                        "sum": 6799
+                    },
+                    {
+                        "name": "Сахарный песок 1кг",
+                        "nds": 2,
+                        "ndsSum": 1091,
+                        "paymentType": 4,
+                        "price": 5999,
+                        "quantity": 2,
+                        "sum": 11998
+                    }
+                ],
+                "kktRegId": "0005332762058783    ",
+                "nds0": 0,
+                "nds10": 10726,
+                "nds10110": 0,
+                "nds18": 7164,
+                "nds18118": 0,
+                "ndsNo": 0,
+                "operationType": 1,
+                "operator": "Жучкова Марина",
+                "operatorInn": "470323655708",
+                "prepaidSum": 0,
+                "provisionSum": 0,
+                "requestNumber": 352,
+                "retailPlace": "Магазин",
+                "retailPlaceAddress": "188676, Ленинградская область, Всеволожский м.р-н, Щегловское с.п., Щеглово д, 34а д.",
+                "sellerAddress": "noreply@platformaofd.ru",
+                "shiftNumber": 438,
+                "taxationType": 1,
+                "appliedTaxationType": 1,
+                "totalSum": 160972,
+                "user": "ООО \"ТК Прогресс\"",
+                "userInn": "7838471956  "
+            }
+        }
+    },
+    "organization": {
+        "name": "ООО \"ТК Прогресс\"",
+        "inn": "7838471956"
+    },
+    "seller": {
+        "name": "ООО \"ТК Прогресс\"",
+        "inn": "7838471956"
+    }
+}
