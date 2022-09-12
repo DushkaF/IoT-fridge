@@ -2,25 +2,11 @@ import requests
 import json
 import os
 from flask import *
-from config import Configuration, secretKey
+from config import Configuration
 from decoder import HSdecoder
 
 app = Flask(__name__, static_folder='scanner/build')
 app.config.from_object(Configuration)
-
-# Set the secret key to some random bytes. Keep this really secret!
-app.secret_key = secretKey
-
-
-# @app.route('/')
-# def hello():
-#     return render_template('index.html')
-
-# @app.route('/static/<dir>/<file
-# def statics(dir, file):
-#     path = "static/" + dir + "/" + file
-#     return send_file(path)
-
 
 # Serve React App
 @app.route('/', defaults={'path': ''})
@@ -37,3 +23,6 @@ def decode():
     print(content)
     parsed_data = HSdecoder(content['codelist'])
     return jsonify(parsed_data)
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", use_reloader=False)
