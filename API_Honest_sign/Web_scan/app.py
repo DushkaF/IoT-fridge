@@ -2,7 +2,7 @@ import requests
 import json
 import os
 from flask import *
-from config import Configuration, internalServerURL, secretKey
+from config import Configuration, secretKey
 from decoder import HSdecoder
 
 app = Flask(__name__, static_folder='scanner/build')

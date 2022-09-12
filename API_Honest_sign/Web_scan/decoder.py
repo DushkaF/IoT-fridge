@@ -1,6 +1,8 @@
 import json
 from get_HS import Lib
-# from main import decoder_QR
+from nalog_python import NalogRuPython
+
+# decoder_QR = NalogRuPython()        # Need authorisation with phone
 
 decoder_HS = Lib()
 
@@ -42,7 +44,7 @@ def parser_good_code(content):
         "good_img": content["catalogData"][0]["good_images"],
         "good_quantity": quantity,
         "expiration_days": expiration_days,
+        "expiration_date":expiration,
         "checkDate":content["checkDate"],
-        "expiration":expiration
     }
     return data_to_save
