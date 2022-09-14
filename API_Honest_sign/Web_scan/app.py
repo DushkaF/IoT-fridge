@@ -4,6 +4,7 @@ import os
 from flask import *
 from config import Configuration
 from decoder import HSdecoder
+import generate_get_json as getJ
 
 app = Flask(__name__, static_folder='scanner/build')
 app.config.from_object(Configuration)
@@ -24,5 +25,9 @@ def decode():
     parsed_data = HSdecoder(content['codelist'])
     return jsonify(parsed_data)
 
+@app.route('/get_catalog', methods=["GET"])
+def send_catolog():
+    return jsonify(getJ.get_catalog())
+
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", use_reloader=False)
+    app.run(use_reloader=False)
