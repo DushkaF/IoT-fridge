@@ -2,6 +2,7 @@ import requests
 import json
 import os
 from flask import *
+from flask_cors import CORS, cross_origin
 from config import Configuration
 from decoder import HSdecoder
 import generate_get_json as getJ
@@ -9,10 +10,13 @@ import generate_get_json as getJ
 app = Flask(__name__, static_folder='scanner/build')
 app.config.from_object(Configuration)
 
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 # Serve React App
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
+@cross_origin()
 def serve(path):
     if path != "" and os.path.exists(app.static_folder + '/' + path):
         return send_from_directory(app.static_folder, path)

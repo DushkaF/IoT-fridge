@@ -24,7 +24,7 @@ def HSdecoder(code_pack):
     elif code_type == 5:
         decoded_json = decoder_HS.infoFromDataMatrix(code_data)
         data_to_save = parser_good_code(decoded_json)
-        # print(json.dumps(data_to_save, indent=4, ensure_ascii=False))
+        # print(json.dumps(decoded_json, indent=4, ensure_ascii=False))
     elif code_type == 11:
         # ticket = decoder_QR.get_ticket(code_data)
         # print(json.dumps(ticket, indent=4, ensure_ascii=False))
@@ -54,6 +54,7 @@ def parser_good_code(content):
     expiration_date = None
     expiration_in_ms = None
     expiration_warning = False
+    expiration_rough = True
     if "milkData" in content:
         if "expireDate" in content["milkData"]:
             expiration_date = int(content["milkData"]["expireDate"])
@@ -66,22 +67,26 @@ def parser_good_code(content):
         if attr["attr_id"] in [15448, 66, 2715]:
             quantity = float(attr["attr_value"])
             quantity_unit = attr["attr_value_type"]
+
         if attr["attr_id"] in [21500, 71]:
-            if attr["attr_id"] == 21500:
+            if attr["attr_id"] == 21500 and expiration_in_ms is None:
                 expiration_days = attr["attr_name"]
+                expiration_rough = True
             elif attr["attr_id"] == 71:
                 expiration_days = attr["attr_value"] + " " + attr["attr_value_type"]
-            if expiration_in_ms is None:
-                expiration_days_splitted = expiration_days[re.search(r"\d", expiration_days).start():].split()
+                expiration_rough = False
+
+            if expiration_in_ms is None or not expiration_rough:
+                expiration_days_splitted = (expiration_days[re.search(r"\d", expiration_days).start():]).split()
                 if expiration_days_splitted[1].find("сут") != -1 or expiration_days_splitted[1].find("дней") != -1 or \
                         expiration_days_splitted[1].find("день") != -1:
-                    expiration_in_ms = int(expiration_days_splitted[0]) * 3600 * 24 * 1000
+                    expiration_in_ms = int(expiration_days_splitted[0]) * 1000 * 3600 * 24
                 elif expiration_days_splitted[1].find("час") != -1:
-                    expiration_in_ms = int(expiration_days_splitted[0]) * 3600 * 1000
+                    expiration_in_ms = int(expiration_days_splitted[0]) * 1000 * 3600
                 elif expiration_days_splitted[1].find("месяц") != -1:
-                    expiration_in_ms = int(expiration_days_splitted[0]) * 3600 * 1000 * 24 * 30
+                    expiration_in_ms = int(expiration_days_splitted[0]) * 1000 * 3600 * 24 * 30
                 elif expiration_days_splitted[1].find("год") != -1 or expiration_days_splitted[1].find("лет") != -1:
-                    expiration_in_ms = int(expiration_days_splitted[0]) * 3600 * 1000 * 24 * 30 * 12
+                    expiration_in_ms = int(expiration_days_splitted[0]) * 1000 * 3600 * 24 * 30 * 12
     if expiration_in_ms is not None and expiration_date is None:
         expiration_date = int(content["checkDate"]) + expiration_in_ms
 
