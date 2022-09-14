@@ -1,5 +1,5 @@
 def get_catalog():
-    data = {"foods":[{
+    data = {"foods": [{
         "check_date": 1663144092843,
         "expiration_date": 1670833692843,
         "expiration_days": "89 сут.",
@@ -8,6 +8,16 @@ def get_catalog():
         "good_quantity": 0.38,
         "good_unit": "кг",
         "product_name": "Торт Медовик Черёмушки к/у 0.38кг",
-        "status": 200
-    }]}
+    }, {
+        "check_date": 1663144947877,
+        "expiration_date": 1663632000000,
+        "expiration_days": "Срок хранения до 40 суток (включительно)",
+        "expiration_warning": False,
+        "good_img": None,
+        "good_quantity": 380,
+        "good_unit": "г",
+        "product_name": "Сметана массовая доля жира 15 %, масса нетто 380 г, товарный знак \"Малочны гасцiнец\"",
+    }],
+        "status": 200}
+
     return data
