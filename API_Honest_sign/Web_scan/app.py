@@ -9,6 +9,7 @@ import generate_get_json as getJ
 app = Flask(__name__, static_folder='scanner/build')
 app.config.from_object(Configuration)
 
+
 # Serve React App
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
@@ -30,4 +31,4 @@ def send_catolog():
     return jsonify(getJ.get_catalog())
 
 if __name__ == "__main__":
-    app.run(use_reloader=False)
+    app.run()
