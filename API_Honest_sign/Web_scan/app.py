@@ -11,9 +11,6 @@ app.config.from_object(Configuration)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgress://postgres:123@localhost/fridge_catalog'
-db = SQLAlchemy(app)
 
 # Serve React App
 @app.route('/', defaults={'path': ''})

@@ -4,7 +4,7 @@ from flask_cors import CORS, cross_origin
 from config import Configuration
 import decoder
 import db_functions
-from flask_sqlalchemy import SQLAlchemy
+from database import db
 
 app = Flask(__name__, static_folder='scanner/build')
 app.config.from_object(Configuration)
@@ -14,7 +14,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///fridge_catalog.db'
-db = SQLAlchemy(app)
+db.init_app(app)
 
 # Serve React App
 @app.route('/', defaults={'path': ''})
