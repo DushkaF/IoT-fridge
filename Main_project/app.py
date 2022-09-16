@@ -2,8 +2,9 @@ import os
 from flask import *
 from flask_cors import CORS, cross_origin
 from config import Configuration
-from decoder import HSdecoder
-import generate_get_json as getJ
+import decoder
+import db_functions
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__, static_folder='scanner/build')
 app.config.from_object(Configuration)
@@ -11,8 +12,8 @@ app.config.from_object(Configuration)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgress://postgres:123@localhost/fridge_catalog'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///fridge_catalog.db'
 db = SQLAlchemy(app)
 
 # Serve React App
@@ -25,20 +26,27 @@ def serve(path):
     else:
         return send_from_directory(app.static_folder, 'index.html')
 
+
 @app.route('/codes', methods=["POST"])
 def decode():
     content = request.json
     print(content)
-    parsed_data = HSdecoder(content['codelist'])
+    parsed_data = decoder.HSdecoder(content['codelist'])
     return jsonify(parsed_data)
 
-@app.route('/get_catalog', methods=["GET"])
-def send_catolog():
-    return jsonify(getJ.get_catalog())
 
 @app.route('/get_catalog', methods=["GET"])
 def send_catalog():
-    return jsonify(getJ.get_catalog())
+    return jsonify(db_functions.get_catalog())
+
+
+@app.route('/accept_product', methods=["POST"])
+def accept_product():
+    content = request.json
+    status = db_functions.add_product_card(content)
+    return jsonify({"status": status})
+
+
 
 if __name__ == "__main__":
     app.run()
