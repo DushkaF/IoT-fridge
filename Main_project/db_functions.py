@@ -17,11 +17,12 @@ def get_catalog():
             data["food_cards"] = []
 
         expiration_date = None
-        if card.expiration_date == None:
+        if card.expiration_date != None:
             dt = datetime.datetime.fromtimestamp(card.expiration_date / 1000.0)
             expiration_date = dt.strftime('%d.%m.%Y')
 
         data_to_json = {
+            "id": card.id,
             "expiration_date": expiration_date,
             "expiration_days": card.expiration_days,
             "expiration_warning": card.expiration_warning,
@@ -39,7 +40,6 @@ def get_catalog():
 def add_product_card(content):
     status = 200
     if content['status'] == 410:
-        decoder.good_candidate = None
         print("product was deleted")
     elif content['status'] == 201:
         product = decoder.good_candidate
@@ -61,4 +61,5 @@ def add_product_card(content):
             print(e)
             status = 500
             print("BD fail!")
-        return status
+    decoder.good_candidate = None
+    return status

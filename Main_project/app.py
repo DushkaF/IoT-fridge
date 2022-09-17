@@ -46,7 +46,17 @@ def accept_product():
     status = db_functions.add_product_card(content)
     return jsonify({"status": status})
 
+@app.route('/remove_product', methods=["POST"])
+def remove_product():
+    content = request.json
+    status = 200
+    return jsonify({"status": status})
 
+@app.route('/settings', methods=["POST"])
+def settings():
+    content = request.json
+    status = 200
+    return jsonify({"status": status})
 
 if __name__ == "__main__":
     app.run()
