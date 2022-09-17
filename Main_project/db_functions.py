@@ -43,23 +43,26 @@ def add_product_card(content):
         print("product was deleted")
     elif content['status'] == 201:
         product = decoder.good_candidate
-        product_card = database.ProductCard(
-            check_date=product["check_date"],
-            expiration_date=product["expiration_date"],
-            expiration_days=product["expiration_days"],
-            expiration_warning=product["expiration_warning"],
-            good_img=product["good_img"],
-            good_quantity=product["good_quantity"],
-            good_unit=product["good_unit"],
-            product_name=product["product_name"]
-        )
-        try:
-            database.db.session.add(product_card)
-            database.db.session.commit()
-            print("product was accept")
-        except Exception as e:
-            print(e)
-            status = 500
-            print("BD fail!")
+        if product is None:
+            status = 404
+        else:
+            product_card = database.ProductCard(
+                check_date=product["check_date"],
+                expiration_date=product["expiration_date"],
+                expiration_days=product["expiration_days"],
+                expiration_warning=product["expiration_warning"],
+                good_img=product["good_img"],
+                good_quantity=product["good_quantity"],
+                good_unit=product["good_unit"],
+                product_name=product["product_name"]
+            )
+            try:
+                database.db.session.add(product_card)
+                database.db.session.commit()
+                print("product was accept")
+            except Exception as e:
+                print(e)
+                status = 500
+                print("BD fail!")
     decoder.good_candidate = None
     return status
